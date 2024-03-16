@@ -1,5 +1,5 @@
-# OpenSourceContributions
-My open-source project contributions.
+# Open Source Contributions
+My contributions to open-source projects.
 
 - 2017 (Rust Hyper): [Fixed infinite loop](https://github.com/hyperium/hyper/pull/1343)
   - Infinite loop happened converting from [`Cow::Owned`](https://doc.rust-lang.org/std/borrow/enum.Cow.html) string or bytes to hyper http body.
