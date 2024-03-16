@@ -1,6 +1,9 @@
 # Open Source Contributions
 My contributions to open source projects.
 
+- 2018 (Go CoreDNS): [Added MINTTL option](https://github.com/coredns/coredns/pull/2055)
+  - Can be used to clamp minimum TTL when caching DNS responses similar to [`cache-min-ttl` option in Unbound](https://nlnetlabs.nl/documentation/unbound/unbound.conf/)
+  - [MINTTL option still exists in CoreDNS](https://coredns.io/plugins/cache/)
 - 2018 (Rust Hyper): [Update send_file example](https://github.com/hyperium/hyper/pull/1533/files)
   - Made example using async file operations provided by [tokio](https://tokio.rs/)
 - 2017 (Rust Hyper): [Fixed infinite loop](https://github.com/hyperium/hyper/pull/1343)
