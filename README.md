@@ -1,6 +1,9 @@
 # Open Source Contributions
 My contributions to open source projects in reverse chronological order.
 
+- 2021 (Go Quic-Go): [Made port HTTP3 Alt-Svc header configurable](https://github.com/quic-go/quic-go/pull/3272/files)
+  - Needed when Layer 4 firewall is redirecting UDP port for HTTP3 servers (e.g. `443 -> 8443`)
+  - Quic-Go library is used as go HTTP3 library in [Caddy](https://caddyserver.com/) and [cloudflared](https://github.com/cloudflare/cloudflared) for example
 - 2021 (Java Hazelast): [Added Nonnull annotations to StreamSerializer](https://github.com/hazelcast/hazelcast/pull/18071)
   - A colleague and I were unsure if parameters and return values from read/write methods were nullable.  So I proposed above PR to Hazelcast to enforce this at compile-time.
   - Change allows [Java FindBugs](https://github.com/findbugsproject/findbugs) can use these annotations at compile time to check null handling.
