@@ -1,6 +1,7 @@
 # OpenSourceContributions
 My open-source project contributions.
 
+- 2016 (Java Apache Camel): [Fixed Kafka key and partition field names](https://github.com/apache/camel/pull/785/files) in [Apache Camel Kafka Component](https://github.com/apache/camel/pull/785/files)
 - 2014 (C/Java Netty): [Fixed issue 2280 in Netty](https://github.com/netty/netty/pull/2294/files)
   - In early days of Netty having an [epoll transport written in C and JNI](https://netty.io/wiki/native-transports.html), the epoll client transport was [incorrectly firing `channelActive` events even if connecting to server failed](https://github.com/netty/netty/issues/2280).
   - I fixed this bug in [Netty's C and Java code using JNI](https://github.com/netty/netty/pull/2294/files)
