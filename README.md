@@ -1,5 +1,5 @@
 # Open Source Contributions
-My contributions to open source projects.
+My contributions to open source projects in reverse chronological order.
 
 - 2018 (Go CoreDNS): [Added MINTTL option](https://github.com/coredns/coredns/pull/2055)
   - Can be used to clamp minimum TTL when caching DNS responses similar to [`cache-min-ttl` option in Unbound](https://nlnetlabs.nl/documentation/unbound/unbound.conf/)
