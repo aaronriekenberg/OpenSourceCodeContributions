@@ -1,6 +1,8 @@
 # OpenSourceContributions
 My open-source project contributions.
 
+- 2017 (Rust Hyper): [Fixed infinite loop](https://github.com/hyperium/hyper/pull/1343)
+  - Infinite loop happened converting from [`Cow::Owned`](https://doc.rust-lang.org/std/borrow/enum.Cow.html) string or bytes to hyper http body.
 - 2016 (Java Apache Camel): [Fixed Kafka key and partition field names](https://github.com/apache/camel/pull/785/files) in [Apache Camel Kafka Component](https://github.com/apache/camel/pull/785/files)
   - Made these fields easier to use as properties on Camel exchange.
 - 2014 (C/Java Netty): [Fixed issue 2280 in Netty](https://github.com/netty/netty/pull/2294/files)
