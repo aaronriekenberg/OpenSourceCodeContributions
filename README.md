@@ -3,6 +3,7 @@ My open-source project contributions.
 
 - 2014 (C/Java Netty): [Fixed issue 2280 in Netty](https://github.com/netty/netty/pull/2294/files)
   - In early days of Netty having an [epoll transport written in C and JNI](https://netty.io/wiki/native-transports.html), the epoll client transport was [incorrectly firing `channelActive` events even if connecting to server failed](https://github.com/netty/netty/issues/2280).
+  - I fixed this bug in [Netty's C and Java code using JNI](https://github.com/netty/netty/pull/2294/files)
   - In modern times much of the JVM REST API world is running on Netty epoll transport (e.g. Spring Boot Webflux, Cassandra, Micronaut, others)
 - 2011 (Java Netty): [Contributed failImmediatelyOnTooLongFrame option to Netty decoders](https://github.com/netty/netty/pull/25)
   - These options [still](https://github.com/netty/netty/blob/4.1/codec/src/main/java/io/netty/handler/codec/DelimiterBasedFrameDecoder.java#L67) [exist](https://github.com/netty/netty/blob/4.1/codec/src/main/java/io/netty/handler/codec/LengthFieldBasedFrameDecoder.java#L196) in Netty
