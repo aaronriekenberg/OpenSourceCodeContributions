@@ -1,6 +1,8 @@
 # Open Source Contributions
-My contributions to open-source projects.
+My contributions to open source projects.
 
+- 2018 (Rust Hyper): [Update send_file example](https://github.com/hyperium/hyper/pull/1533/files)
+  - Made example using async file operations provided by [tokio](https://tokio.rs/)
 - 2017 (Rust Hyper): [Fixed infinite loop](https://github.com/hyperium/hyper/pull/1343)
   - Infinite loop happened converting from [`Cow::Owned`](https://doc.rust-lang.org/std/borrow/enum.Cow.html) string or bytes to hyper http body.
 - 2016 (Java Apache Camel): [Fixed Kafka key and partition field names](https://github.com/apache/camel/pull/785/files) in [Apache Camel Kafka Component](https://github.com/apache/camel/pull/785/files)
