@@ -1,6 +1,10 @@
 # Open Source Contributions
 My contributions to open source projects in reverse chronological order.
 
+- 2021 (Java Hazelast): [Added `Nonnull` annotations to `StreamSerializer`](https://github.com/hazelcast/hazelcast/pull/18071)
+  - A colleague and I were unsure if parameters and return values from read/write methods were nullable.
+  - This contribution uses Java FindBugs to do compile time checks that nullability is handled corretly.
+  - Also alows Kotlin code using Hazelcast to enforce null-safety.
 - 2018 (Go CoreDNS): [Added MINTTL option](https://github.com/coredns/coredns/pull/2055)
   - Can be used to clamp minimum TTL when caching DNS responses similar to [`cache-min-ttl` option in Unbound](https://nlnetlabs.nl/documentation/unbound/unbound.conf/)
   - [MINTTL option still exists in CoreDNS](https://coredns.io/plugins/cache/)
