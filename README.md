@@ -5,7 +5,7 @@ My contributions to open source projects in reverse chronological order.
   - [First PR](https://github.com/google/flatbuffers/pull/7092): simple change given that [in Kotlin 1.5 unsigned types are not experimental](https://kotlinlang.org/docs/whatsnew15.html#stable-unsigned-integer-types), remove generation of annotation
   - Above change was [reverted](https://github.com/google/flatbuffers/pull/7775/files#diff-0b34e54e6c813fb09cab40f18d75181bb88a04850de4b140a6a7f9ce13115c17R290) because unsigned arrays are still experimental
   - [Second PR](https://github.com/google/flatbuffers/pull/7881): change to detect when unsigned arrays are used and generate annotation only when needed.
-  - This change [still exists in `flatc` main branch](https://github.com/google/flatbuffers/blob/master/src/idl_gen_kotlin.cpp#L704-L706)
+  - Second change [still exists in `flatc` main branch](https://github.com/google/flatbuffers/blob/master/src/idl_gen_kotlin.cpp#L704-L706)
 - 2021 (Go quic-go): [Made port HTTP3 Alt-Svc header configurable](https://github.com/quic-go/quic-go/pull/3272/files)
   - Needed when Layer 4 firewall is redirecting UDP port for HTTP3 servers (e.g. `443 -> 8443`)
   - quic-go library is used as go HTTP3 library in [Caddy](https://caddyserver.com/) and [cloudflared](https://github.com/cloudflare/cloudflared) for example
