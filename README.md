@@ -1,7 +1,7 @@
 # Open Source Contributions
 My contributions to open source projects in reverse chronological order.
 
-- 2023 (Rust hyper): [Contributed graceful server connection shutdown example](https://github.com/hyperium/hyper/pull/3303) to [Hyper 1.0](https://hyper.rs)
+- 2023 (Rust hyper): Contributed [graceful server connection shutdown example](https://github.com/hyperium/hyper/pull/3303) to [Hyper 1.0](https://hyper.rs)
    - This example [still](https://github.com/hyperium/hyper/tree/master/examples#going-further) [exists](https://github.com/hyperium/hyper/blob/master/examples/graceful_shutdown.rs)  in master branch
 - 2022 (Go quic-go): Fixed bug in [Caddy](https://caddyserver.com) when using HTTP/3 + fastcgi resverse proxy
    - Observed [HTTP/3 frontend with fastcgi reverse proxy backend always returned 500](https://github.com/caddyserver/caddy/issues/4819)
